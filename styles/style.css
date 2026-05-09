@@ -299,6 +299,11 @@ i{
     width: 350px;
     text-align: center;
 }
+.ejeImg{
+    max-width: 100%;
+    border-radius: 1rem;
+
+}
 /*FINAL*/
 .final{
     background-color: #020B1F;
