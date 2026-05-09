@@ -355,3 +355,37 @@ i{
     text-align: center;
 
 }
+/**PROYECTOS**/
+.Proyectos h1{
+    color: #FFFFFF;
+}
+.contenedorProyectos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.proImg{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+.proyeCard{
+    background-color: rgba(91, 69, 114, 0.3);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(45,31,26,0.08);
+    transition: 0.3s;
+}
+.proyeCard:hover{
+    transform: translateY(-5px);
+}
+.proyeDetalles{
+    background-color: rgba(91, 69, 114, 0.714);
+    color: #FFFFFF;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
